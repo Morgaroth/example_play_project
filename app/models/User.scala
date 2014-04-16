@@ -1,5 +1,9 @@
 package models
 
 class User {
-  val updated = "ala ma kota"
+  val updsated = "ala ma kota"
+  val evaluated = 4
+
 }
+
+

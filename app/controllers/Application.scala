@@ -7,10 +7,9 @@ import models.User
 object Application extends Controller {
 
   def index = Action {
-    val user = new User()
-    Ok(user.updated)
+    val user: User = new User()
+    Ok(user.updsated)
   }
-
 
 
 }
